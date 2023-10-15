@@ -46,3 +46,14 @@
 // }
 
 
+// let firstNumber = 382;
+// let secondNumber = 43242;
+
+// let reminderFN = firstNumber%10;
+// let reminderSN = secondNumber%10;
+// if(reminderFN === reminderSN) console.log("True");
+// else console.log("False");
+
+// const name = prompt("Enter your Name","Enter your age");
+// // const age = prompt();  
+// alert(`${name} is ${age} year old.`);
