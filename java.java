@@ -1,12 +1,14 @@
 class java {
     public static void main(String[] args) {
-        System.out.println(isPalindrome(121));
-    }
-    public static boolean isPalindrome(int x) {
-        int n = x;
+    //     System.out.println(isPalindrome(121));
+    // }
+    // public static boolean isPalindrome(int x) {
+    //     int n = x;
 
-        if(reverse(n) == x && n>=0) return true;
-        return false;
+    //     if(reverse(n) == x && n>=0) return true;
+    //     return false;
+
+    String[] s = ["flower","flow","flight"];
     }
 
     public static int reverse(int n){

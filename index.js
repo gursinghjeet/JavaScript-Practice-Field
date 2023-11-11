@@ -57,3 +57,120 @@
 // const name = prompt("Enter your Name","Enter your age");
 // // const age = prompt();  
 // alert(`${name} is ${age} year old.`);
+
+
+
+// fun();
+// console.log(x);
+// let x = 9;
+
+// function fun(){
+//     var a = 4;
+//     fun2();
+//     function fun2(){
+//         console.log(a);
+//     }
+// }
+
+
+
+// function fun(){
+//     let a = 4;
+//     function fun2(){
+//         console.log(a);
+//     }
+//     a =9;
+//     return fun2();
+// }
+
+// var z = fun();
+// // console.log(z);
+// z();
+
+
+// function x(){
+//     let  a = 90;
+//     return function y(){
+//         let b = 60;
+//         return function z(){
+//             console.log(a,b);
+//         }
+        
+//     }
+     
+// }
+// var f = x();
+// console.log(f);
+// f();
+
+
+// function fun(){
+//     for(var i =0;i<=5;i++){
+//         let a = i;
+//         setTimeout(function (){
+//         console.log(a);
+//         },i*1000);
+//     }
+//     console.log("hello")
+// }
+// fun();
+
+//example of data hiding and data privacy using clouser
+// function counter(){
+//     let count = 0;
+//     return function (){
+//         count++;
+//         console.log(count);
+//     }
+// }
+// let counter1 = counter();
+// counter1();
+// counter1();
+// let counter2 = counter();
+// counter2();
+// counter2();
+// counter2();
+
+
+//example of data hiding and data privacy with constructor using clouser
+
+// function counter(){
+//     let count = 0;
+//     this.increament = function (){
+//         count++;
+//         console.log(count);
+//     }    
+//     this.decreament = function (){
+//         count--;
+//         console.log(count);
+//     }
+// }
+// let counter1 = new counter();
+// counter1.increament();
+// counter1.increament();
+// counter1.increament();
+// counter1.decreament();
+
+
+//Function Statement 
+function a(){
+    console.log("this is a statement function");
+}
+a();
+
+//function expression
+
+//b();  -it give type error bcoz its not obey hoisting 
+var b = function(){
+    console.log("this is a expression function");
+}
+b();
+
+
+//Anonymous function
+
+// function (){
+
+// }
+
+
