@@ -153,18 +153,18 @@
 
 
 //Function Statement 
-function a(){
-    console.log("this is a statement function");
-}
-a();
+// function a(){
+//     console.log("this is a statement function");
+// }
+// a();
 
-//function expression
+// //function expression
 
-//b();  -it give type error bcoz its not obey hoisting 
-var b = function(){
-    console.log("this is a expression function");
-}
-b();
+// //b();  -it give type error bcoz its not obey hoisting 
+// var b = function(){
+//     console.log("this is a expression function");
+// }
+// b();
 
 
 //Anonymous function
@@ -173,4 +173,26 @@ b();
 
 // }
 
+
+
+
+// setTimeout(function (){
+//     console.log("timer");
+// },4000);
+
+// //Callback function in JS
+// function y(callback){
+//     console.log("Y");
+//     callback();
+// }
+
+// y(function callback(){
+//     console.log("callback");
+// });
+
+
+//Event Listenner
+document.getElementById("clickMe").addEventListener("click",function (){
+    console.log("button clicked")
+});
 
