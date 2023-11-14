@@ -192,7 +192,38 @@
 
 
 //Event Listenner
-document.getElementById("clickMe").addEventListener("click",function (){
-    console.log("button clicked")
-});
+// document.getElementById("clickMe").addEventListener("click",function (){
+//     console.log("button clicked")
+// });
 
+
+
+// let arr = [
+//     "this is my era",
+//     "i am your boss",
+//     "my name is gurjeet"
+// ]
+
+// function xyz(){
+//     arr.forEach((arr,i) => console.log(`Line ${i} = `,arr));
+// }
+// xyz();
+
+
+
+//setTimeout trust issue
+
+console.log('code start');
+
+setTimeout(function (){
+    console.log("callback")
+},5000);
+
+let startTime  = new Date().getTime();
+let endTime  = startTime;
+while(endTime < startTime+3000){
+    // console.log("while running");
+
+    endTime = new Date().getTime();
+}
+console.log("while end");
