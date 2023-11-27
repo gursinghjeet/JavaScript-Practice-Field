@@ -213,17 +213,72 @@
 
 //setTimeout trust issue
 
-console.log('code start');
+// console.log('code start');
 
-setTimeout(function (){
-    console.log("callback")
-},5000);
+// setTimeout(function (){
+//     console.log("callback")
+// },5000);
 
-let startTime  = new Date().getTime();
-let endTime  = startTime;
-while(endTime < startTime+3000){
-    // console.log("while running");
+// let startTime  = new Date().getTime();
+// let endTime  = startTime;
+// while(endTime < startTime+3000){
+//     // console.log("while running");
 
-    endTime = new Date().getTime();
-}
-console.log("while end");
+//     endTime = new Date().getTime();
+// }
+// console.log("while end");
+
+
+
+
+
+//HIGHER ORDER FUNCTION
+
+// const radius = [87,3,455,67,56,8];
+
+// // const calculateCircustance = function(radius){
+// //     const circumstance = [];
+// //     for(let i=0;i<radius.length;i++){
+// //         circumstance.push(2 * Math.PI * radius[i]);
+// //     }
+// //     return circumstance;
+// // }
+// // console.log(calculateCircustance(radius));
+
+// // function calculateArea(calculateCircustance){
+// //     const ans = calculateCircustance*calculateCircustance/4*Math.PI;
+// //     return ans;
+// // }
+
+// // console.log(calculateArea(calculateCircustance));
+
+// const area = function (radius){
+//     return Math.PI*radius*radius;
+// }
+
+// const circumstace = function (radius){
+//     return 2*Math.PI*radius;
+// }
+
+// const diameter = function (radius){
+//     return 2*radius;
+// }
+
+
+// function calculate(radius,logic){
+//     const ans = [];
+//     for(let i=0;i<radius.length;i++){
+//         ans.push(logic(radius[i]));
+//     }
+    
+//     return ans;
+// }
+
+// console.log(radius.map(area));
+
+// // console.log(calculate(radius,area));
+// // console.log(calculate(radius,circumstace));
+// // console.log(calculate(radius,diameter));
+
+
+// MAP, FILTER & REDUCE FUNCTION IN JS
