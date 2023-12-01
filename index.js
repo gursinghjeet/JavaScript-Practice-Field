@@ -281,4 +281,52 @@
 // // console.log(calculate(radius,diameter));
 
 
+
 // MAP, FILTER & REDUCE FUNCTION IN JS
+
+// const arr = [2,6,3,9,5,1];
+
+// function double(x){
+//     return x*2;
+// }
+
+// // console.log(arr.map(double));
+// console.log(arr.map((x) => x*2));
+
+// function getlessthen4(r){
+//     return r<4;
+// }
+
+// // console.log(arr.filter(getlessthen4));
+// console.log(arr.filter((r) => r<4));
+
+
+
+// function fun(){
+//     for(var i =0;i<=5;i++){
+//         let a = i;
+//         setTimeout(function (){
+//         console.log(a);
+//         },i*1000);
+//     }
+//     console.log("hello")
+// }
+// fun();
+
+
+// function run(){
+//     setTimeout(() =>{
+//         for(var i=0;i<=5;i++){
+//             console.log(i);
+//         }
+//     },2000);
+    
+// }
+// run();s
+for(let i = 0;i<=3;i++)
+{
+    const log = () => {
+        console.log(i);
+    }
+    setTimeout(log,100); 
+}
